@@ -1,0 +1,30 @@
+@media screen and (max-width: 65rem) {
+    
+    .header {
+        flex-direction: column;
+    }
+    .header .logo-tittle .tittle {
+        font-size: 4rem;
+    }
+
+    .header .menu {
+        flex-direction: column;
+        margin-top: 5rem;
+    }
+    .header .menu li {
+        font-size: 4rem;
+        padding: 3.3rem 0;
+    }
+    .header .menu li:last-child {
+        margin-top: 2rem;
+    }
+    .header .menu li a {
+        font-size: 4rem;
+        padding: 1.7rem 4rem;
+    }
+    .header .menu li a.btn {
+        font-size: 1.8rem;
+        padding: 1.5rem 2.3rem;
+    }
+
+}
