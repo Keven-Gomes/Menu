@@ -1,6 +1,6 @@
 # The Bank — Projeto de Menu (Exercício)
 
-Projeto de exemplo que implementa o layout de um cabeçalho com menu responsivo e botão de cadastro. Desenvolvido como exercício do módulo de CSS avançado.
+Projeto de exemplo que implementa o layout de um cabeçalho com menu responsivo e botão de cadastro. Desenvolvido como exercício.
 
 ## Descrição
 Este repositório contém um layout simples de cabeçalho (header) com logo e menu de navegação, estilizado com CSS. Ótimo para estudar posicionamento, responsividade e práticas básicas de organização de arquivos front-end.
@@ -18,7 +18,7 @@ Este repositório contém um layout simples de cabeçalho (header) com logo e me
   - images/
     - logo.png
 - index.html
-- readm.md
+- README.md
 
 ## Tecnologias
 - HTML5
