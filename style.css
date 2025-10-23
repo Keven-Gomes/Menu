@@ -1,0 +1,87 @@
+body {
+    font-family: "Public Sans", sans-serif;
+    margin: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu .logo-tittle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu .logo-tittle .tittle {
+    font-weight: 800;
+    font-size: 20px;
+    color: black;
+}
+
+.menu .navigation ul {
+    display: flex;
+    align-items: center;
+    gap: 27px;
+}
+
+.menu .navigation ul .text-link {
+    color: black;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.menu .navigation ul .text-link-active a {
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    background-color: #5BC241;
+    padding: 10px 5px;
+}
+
+.menu .navigation ul .text-button button {
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+    background-color: #5BC241;
+    padding: 10px 5px;
+    border-radius: 8px;
+}
+
+@media screen and (min-width:375px) and (max-height:800px) {
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu .logo-tittle {
+        display: flex;
+        margin: 40px 0;
+    }
+
+    .menu .logo-tittle .tittle {
+        font-size: 40px;
+    }
+
+    .menu .navigation ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu .navigation ul .text-link,
+    .menu .navigation ul .text-link-active a {
+        font-size: 40px;
+        padding: 17px 60px;
+    }
+
+    .menu .navigation ul .text-button button {
+        font-size: 18px;
+        padding: 12px 20px;
+    }
+
+}
